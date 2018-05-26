@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Nombre: MyString
+  Clave: MyString
+  Grupo: one
+  Estudiante: one
+
+two:
+  Nombre: MyString
+  Clave: MyString
+  Grupo: two
+  Estudiante: two

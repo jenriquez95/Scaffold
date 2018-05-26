@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @grupo.Nombre %>
+</p>
+
+<p>
+  <strong>Clave:</strong>
+  <%= @grupo.Clave %>
+</p>
+
+<%= link_to 'Edit', edit_grupo_path(@grupo) %> |
+<%= link_to 'Back', grupos_path %>

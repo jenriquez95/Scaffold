@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @edificio.Nombre %>
+</p>
+
+<p>
+  <strong>Clave:</strong>
+  <%= @edificio.Clave %>
+</p>
+
+<p>
+  <strong>Grupo:</strong>
+  <%= @edificio.Grupo %>
+</p>
+
+<p>
+  <strong>Estudiante:</strong>
+  <%= @edificio.Estudiante %>
+</p>
+
+<%= link_to 'Edit', edit_edificio_path(@edificio) %> |
+<%= link_to 'Back', edificios_path %>
